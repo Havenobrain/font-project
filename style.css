@@ -1,0 +1,60 @@
+@font-face {
+    src: url('fonts/Raleway-Bold.ttf');
+    font-family: "Raleway Bold";
+}
+
+
+@font-face {
+    src: url('fonts/Raleway-Medium.ttf');
+    font-family: "Raleway Medium";
+}
+
+
+@font-face {
+    src: url('fonts/Raleway-Light.ttf');
+    font-family: "Raleway Light";
+}
+
+
+
+@media screen and (max-width: 600px){
+    .content li{
+        font-family: "Raleway Bold";
+        color: white;
+        height: 5%;
+        display: block;
+        float: left;
+        background-color: rgb(161, 48, 48)
+}}
+
+
+
+@media screen and (max-width: 600px){
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+  }}
+  
+
+
+@media screen and (max-width: 600px){
+    .active, .collapsible:hover {
+        background-color: #555;
+    }}
+  
+    
+
+@media screen and (max-width: 600px){
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+  }}

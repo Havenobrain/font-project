@@ -1,0 +1,64 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<h2>Резюме:</h2>
+<h2>Сергеев Георгий Михайлович</h2> <p><img src="Снимок экрана 2023-10-01 в 18.15.49.png"  alt="Язык программирования Python" width="200"> </p>
+
+<button type="button" class="collapsible">ЛИЧНЫЕ ДАННЫЕ:</button>
+<div class="content">
+  <br><li>Номер сотового телефона: 8-981-818-83-39</li>
+  <br><li>Личный e-mail: gosha_sergeev12@mail.ru</li>
+  <br><li>Дата и место рождения: 28.05.1998 г. город Анапа, Краснодарский край</li>
+  <br><li>Семейное положение: холост</li> 
+</div>
+
+<button type="button" class="collapsible">ОБРАЗОВАНИЕ:</button>
+<div class="content">
+  <p>2016 – 2022 гг. Санкт-Петербургский Горный Университет</p>
+  <p>Специальность:</p>
+  <p>Нефтегазовое дело. Бурение нефтяных и газовых скважин. Бакалавр.</p>
+  <p>Средний балл за время обучения в университете на бакалавриате – 4.75</p>
+  <p>Нефтегазовое дело. Бурение горизонтальных скважин. Магистр</p>
+  <p>Средний балл за время обучения в университете на магистратуре – 5.0 (диплом с отличием)</p>
+</div>
+<button type="button" class="collapsible">ДОПОЛНИТЕЛЬНОЕ ОБРАЗОВАНИЕ:</button>
+<div class="content">
+  <p>1) 2020 г. лекционный онлайн-курс «Выбор и применение премиальных резьбовых соединений обсадных колонн для сложных нефтегазовых проектов». Сертификат в наличии.</p>
+  <p>2) Курсы помощника бурильщика, ГНВП.</p>
+</div>
+<button type="button" class="collapsible">ПРОФЕССИОНАЛЬНЫЙ ОПЫТ:</button>
+<div class="content">
+  <p>Июль 2018 — Август 2018</p>
+  <p>Должность: Помощник бурильщика. Наименование компании: НСХ «Азия Дриллинг»</p>                                                                                                                                        
+  <p>Июль 2019 — Август 2019</p>
+  <p>Должность: Помощник бурильщика. Наименование компании: НСХ «Азия Дриллинг»</p>
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+</body>
+</html>
+
